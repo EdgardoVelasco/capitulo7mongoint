@@ -1,4 +1,4 @@
-rs.initiate({
+var resultado=rs.initiate({
 	_id:"replicaShard",
 	members:[
 		{_id:0, host:"localhost:27001"},
@@ -6,3 +6,5 @@ rs.initiate({
        		{_id:2, host:"localhost:27003"}
 	]
 })
+
+print(resultado)
